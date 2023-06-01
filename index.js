@@ -39,7 +39,6 @@ app.listen(PORT, () => {
   console.log(`Listening on port: ${ PORT }`);
 });
 
-
 //! Two methods with bcrypt:
 //! bcrypt.hash(<password/string>, saltRound); --> hashes a plaintext string/password (saltRound is variable set to a number (default 10));
 //! bcrypt.compare(<password/string>, <stored hash>);  --> compares a plaintext string/password with a hashed string/password
